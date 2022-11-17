@@ -1,0 +1,28 @@
+{
+   "Interval":2,
+   "Regex":"%b %d %H:%M:%S %Y GMT",
+   "Admins":[
+      "admin@administration.com",
+      "ReportErros@Erros.com"
+   ],
+   "Verbose":true,
+   "Hosts":{
+      "cnn.com":{
+		 "Hostname": "cnn.com",
+         "Port": 443,
+         "Period": 10,
+         "Email":[
+            "test@test.com",
+            "total@total.com"
+         ]
+      },
+	  "expired-rsa-dv.ssl.com":{
+		"Hostname": "expired-rsa-dv.ssl.com",
+		"Port": 443,
+		"Period": 10,
+		"Email": [
+			"test@test.com"
+		]
+	  }
+   }
+}
